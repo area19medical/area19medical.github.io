@@ -7,6 +7,7 @@
     <link rel="icon" type="image/x-icon" href="/images/A19circleI.png">
     <title>Area 19 AI</title>
     <link rel="stylesheet" href="style.css" />
+    
   </head>
   <body class="main" draggable="false">
     <div class="navcont">
@@ -64,29 +65,77 @@
             <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
         </svg>
       </div>
-      <div class="solution solution-grid">
-        <div style=" padding-left: 1rem; padding-right: 1rem;"><h1>Our Solution</h1><br>
-          <h3 style=" font-weight: lighter;">We offer a groundbreaking solution for cardiac MRIs, eliminating the need for needles and ensuring ultra-fast results. Our cutting-edge tool leverages advanced Glassbox AI technology to enable dynamic and high-resolution mapping of findings, including comprehensive coverage of coronary and microvascular diseases.</h3>
-          <br><h3 style=" font-weight: lighter;">We have optimized an MRI protocol that can be executed at any clinical facility right now.
+      <div class="solution solution-grid" >
+        <div style=" padding-left: 1rem; padding-right: 1rem;"><h1>The Problem</h1><br>
+          <h3 style=" font-weight: lighter;">Despite advances in medicine, cardiovascular diseases remain the leading cause of death worldwide.</h3><br>
+          <h3 style=" font-weight: lighter;">Cardiovascular diseases refer to a group of conditions that affect the heart and blood vessels. These include hypertension (high blood pressure); coronary heart disease (heart attack); cerebrovascular disease (stroke); heart failure; and other heart diseases.</h3>
+          
+          <ul style="list-style: circle; padding-left: 2rem; padding-top: 2rem; " >
+            <li id="problem-list">48% of the population will develop some form of cardiac disease</li><br>
+            <li id="problem-list">Diagnostic work-up is complex and time-consuming</li><br>
+            <li id="problem-list">Lack of medical expertise limits the right tests for the right patients</li><br>
+          </ul>
+      </div>
+      <div id="graph" ><iframe src="https://ourworldindata.org/grapher/annual-number-of-deaths-by-cause?time=earliest"  ></iframe></div>
+      
+    </section>
+    <section class="section-blue">
+      
+      <div class="solution solution-grid" >
+        <div><h1>Our Solution</h1><br>
+          <h2>Using Oxygenation as a <span style="color:#229ed7;">Biomarker </span></h2>
+        <h4 style="text-align: left;">Providing novel, critically important diagnostic and prognostic biomarkers for coronary artery disease AND microvascular disease.</h4><br>
+          <h3 >We offer a groundbreaking solution for cardiac MRIs, eliminating the need for needles and ensuring ultra-fast results. Our cutting-edge tool leverages advanced Glassbox AI technology to enable dynamic and high-resolution mapping of findings, including comprehensive coverage of coronary and microvascular diseases.</h3>
+          <br><h3>We have optimized an MRI protocol that can be executed at any clinical facility right now.
             Our protocol employs standard MRIs already in use at hospitals and requires no additional hardware or scanning software.
             It is compatible with all leading MRI systems (Siemens, GE, Philips) and includes the only software that can efficiently analyze this type of data.</h3>
-            
             </div>
-        <div style="align-self:flex-end; "><img src="images/heart_marker.gif" draggable="false"></div>
-        
-        <div style="padding-left: 1.5rem; padding-top: 10rem;"><h2>Using Oxygenation as a <span style="color:#229ed7;">Biomarker </span></h2><br>
-        <h4 style="text-align: left;">Providing novel, critically important diagnostic and prognostic biomarkers for coronary artery disease AND microvascular disease.</h4>
-        <button class="Wbutton"  id="sec1button">Why OS-CMR?</button></div>
-
-
+            <div><img src="images/heart_marker.gif" draggable="false"></div>
         
       </div>
     </section>
     <section class="section-break">
       <div>
       <img src="images/logop.png" class="logo" draggable="false" />
-      <h3 style="color:var(--white-color)">We help healthcare providers achieve better patient outcomes at a lower cost.</h3>
+      <h3>We help healthcare providers achieve better patient outcomes at a lower cost.</h3>
       </div>
+
+    </section>
+    <section class="section-white" id="whyOS">
+      <div>
+      <div class="solution"><h1 style="text-align: center;">Why OS-CMR?</h1></div><br>
+      <div class="container">
+
+        <div class="panel " style="
+              background-image: url('/images/noradiation.png');
+            ">
+          <div class="OStext"><h3>No Radiation</h3><h4>Unlike other imaging techniques such as computed tomography (CT), OS CMR does not expose patients to ionizing radiation, reducing harmful effects.</h4></div>
+        </div>
+        <div class="panel blur"
+          style="
+              background-image: url('/images/highres.png');">
+          <div class="OStext"><h3>High Resolution</h3><h4>OS CMR has high spatial and temporal resolution, providing detailed images of the heart's structure and function in real time. </h4></div>
+        </div>
+        <div class="panel active "
+          style="
+              background-image: url('images/happypatient.png')">
+              <div class="OStext"><h3>Non-Invasive</h3><h4>Unlike invasive procedures such as cardiac catheterization, which involve inserting a catheter into the heart, OS CMR is a non-invasive technique that does not require any incisions or injections. </h4></div>
+          
+        </div>
+        <div class="panel blur" style="
+              background-image: url('images/heart1.png');
+            ">
+            <div class="OStext"><h3>Effective Diagnosis</h3><h4>OS CMR has been shown to be effective in diagnosing a range of cardiovascular diseases, including coronary artery disease, heart failure, and arrhythmias.</h4></div>
+          
+        </div>
+        <div class="panel blur" style="
+              background-image: url('images/scar.PNG');
+            ">
+            <div class="OStext"><h3>Tissue Viability</h3><h4>OS CMR can help assess the viability of heart tissue by detecting areas of the heart muscle that are not receiving enough oxygen, which can be an indication of tissue damage. </h4></div>
+          
+        </div>
+      </div>
+      </div></div>
 
     </section>
     <section class="section-blue"> 
@@ -149,6 +198,7 @@
           
           <div class="team-row">
             <div class="profile-box">
+              
               <h5><a href="http://www.cardiomuhc.ca/nadia-giannetti">Dr. Nadia Giannetti</a></h5>
               <h4>Cardiologist</h4>
               <img src="images/nadiagiannetti.png" class="team-img" draggable="false">
@@ -230,16 +280,35 @@
             <br>
             <button type="submit" class="Wbutton">Send Email</button>
           </form>
-            <!--
-            <div class="contact-col-e">
-                <h2 style="font-weight: lighter;">Or email us directly:</h2>
-                    <br>
-                    <h5><i class="fa fa-envelope-o"></i> <a href="mailto:mitchel.benovoy@area19.ai" class="email"> mitchel.benovoy@area19.ai</a></h5><br>
-                    <h5><i class="fa fa-envelope-o"></i> <a href="mailto:silke.friedrich@area19.ai" class="email"> silke.friedrich@area19.ai</a></h5><br>
-                    <h5><i class="fa fa-envelope-o"></i> <a href="mailto:matthias.friedrich@area19.ai" class="email"> matthias.friedrich@area19.ai</a></h5>
-            </div>-->  
         </div>  
     </section>
+
+<div class="modal" id="email-modal">
+  <div class="modal-content" id="mc">
+    <span class="close-btn">&times;</span>
+    <div class="modal-content-left">
+      <img src="images/technology.svg" id="#modal-img">
+    </div>
+    <div class="modal-content-right">
+      <form action="/" class="modal-form" method="GET" id="newsletter">
+        <h1>Get Started with Area 19. Sign up for our newsletter!</h1>
+        <div class="form-validation">
+          <input type="text" class="modal-input" id="name" name="name" placeholder="Enter your name">
+          
+        </div>
+        <div class="form-validation">
+          <input type="email" class="modal-input" id="email" name="email" placeholder="Enter your email">
+          
+        </div>
+
+        <input type="submit" class="modal-input-btn Wbutton" value="Sign up">
+
+
+      </form>
+    </div>
+  </div>
+</div>
+<script src="newsletter.js"></script>
 </body>
     <button onclick="topFunction()" id="myBtn" title="Scroll to Top"><i class="fa fa-arrow-up"></i></button>
 
@@ -267,7 +336,7 @@
         // Get the button:
         let mybutton = document.getElementById("myBtn");
 
-        // When the user scrolls down 20px from the top of the document, show the button
+        // When the user scrolls down 480px from the top of the document, show the button
         window.onscroll = function() {scrollFunction()};
 
         function scrollFunction() {
@@ -283,9 +352,32 @@
         document.body.scrollTop = 0; // For Safari
         document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
         }
+
+       
+    const panels = document.querySelectorAll(".panel");
+    panels.forEach((panel) => {
+      panel.addEventListener("click", () => {
+        remveActiveClasses();
+        panel.classList.add("active");
+        
+      });
+    });
+
+    function remveActiveClasses() {
+      panels.forEach((panel) => {
+        panel.classList.remove("active");
+        
+        
+      });
+    }
+
+
+
+
     </script>
 <footer>
     <p>Copyright © 2022 AREA19 MEDICAL INC. - All Rights Reserved.</p>
   </footer>
+  
 </html>
 
