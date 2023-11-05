@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="Report_Active" transform="translate(-15 -690)">
+    <path id="Rectangle_15734" data-name="Rectangle 15734" d="M2,2V32H24V2H2M0,0H26V34H0Z" transform="translate(26 696)" fill="#0df"/>
+    <path id="Line_124" data-name="Line 124" d="M15,1.5H0A1.5,1.5,0,0,1-1.5,0,1.5,1.5,0,0,1,0-1.5H15A1.5,1.5,0,0,1,16.5,0,1.5,1.5,0,0,1,15,1.5Z" transform="translate(31.5 703.527)" fill="#0df"/>
+    <path id="Line_125" data-name="Line 125" d="M15,1.5H0A1.5,1.5,0,0,1-1.5,0,1.5,1.5,0,0,1,0-1.5H15A1.5,1.5,0,0,1,16.5,0,1.5,1.5,0,0,1,15,1.5Z" transform="translate(31.5 708.473)" fill="#0df"/>
+    <path id="Line_126" data-name="Line 126" d="M15,1.5H0A1.5,1.5,0,0,1-1.5,0,1.5,1.5,0,0,1,0-1.5H15A1.5,1.5,0,0,1,16.5,0,1.5,1.5,0,0,1,15,1.5Z" transform="translate(31.5 723.527)" fill="#0df"/>
+    <path id="Rectangle_15735" data-name="Rectangle 15735" d="M3,3V5H5V3H3M2,0H6A2,2,0,0,1,8,2V6A2,2,0,0,1,6,8H2A2,2,0,0,1,0,6V2A2,2,0,0,1,2,0Z" transform="translate(40 712)" fill="#0df"/>
+    <path id="Rectangle_15736" data-name="Rectangle 15736" d="M3,3V5H5V3H3M2,0H6A2,2,0,0,1,8,2V6A2,2,0,0,1,6,8H2A2,2,0,0,1,0,6V2A2,2,0,0,1,2,0Z" transform="translate(30 712)" fill="#0df"/>
+    <rect id="Rectangle_14919" data-name="Rectangle 14919" width="48" height="48" transform="translate(15 690)" fill="none"/>
+  </g>
+</svg>
