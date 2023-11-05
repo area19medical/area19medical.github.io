@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="CheckContours" transform="translate(-15 -510)">
+    <g id="Ellipse_153" data-name="Ellipse 153" transform="translate(23 517)" fill="none" stroke="#6c6d75" stroke-width="2">
+      <circle cx="16" cy="16" r="16" stroke="none"/>
+      <circle cx="16" cy="16" r="15" fill="none"/>
+    </g>
+    <g id="Ellipse_154" data-name="Ellipse 154" transform="translate(30 524)" fill="none" stroke="#6c6d75" stroke-width="2">
+      <circle cx="9" cy="9" r="9" stroke="none"/>
+      <circle cx="9" cy="9" r="8" fill="none"/>
+    </g>
+    <g id="Ellipse_155" data-name="Ellipse 155" transform="translate(25.25 534.25)" fill="none" stroke="#b1b2bf" stroke-width="2">
+      <circle cx="6.5" cy="6.5" r="6.5" stroke="none"/>
+      <circle cx="6.5" cy="6.5" r="5.5" fill="none"/>
+    </g>
+    <line id="Line_123" data-name="Line 123" x1="5" y2="5" transform="translate(23 544.75)" fill="none" stroke="#b1b2bf" stroke-linecap="round" stroke-width="2"/>
+    <rect id="Rectangle_14919" data-name="Rectangle 14919" width="48" height="48" transform="translate(15 510)" fill="none"/>
+  </g>
+</svg>

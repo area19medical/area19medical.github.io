@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="DisplayContours" transform="translate(-165 -247)">
+    <rect id="Rectangle_15729" data-name="Rectangle 15729" width="32" height="32" transform="translate(165 247)" fill="none"/>
+    <g id="Ellipse_140" data-name="Ellipse 140" transform="translate(170 252)" fill="none" stroke="#b1b2bf" stroke-width="2">
+      <circle cx="11" cy="11" r="11" stroke="none"/>
+      <circle cx="11" cy="11" r="10" fill="none"/>
+    </g>
+    <g id="Ellipse_141" data-name="Ellipse 141" transform="translate(175 257)" fill="none" stroke="#b1b2bf" stroke-width="2">
+      <circle cx="6" cy="6" r="6" stroke="none"/>
+      <circle cx="6" cy="6" r="5" fill="none"/>
+    </g>
+  </g>
+</svg>
