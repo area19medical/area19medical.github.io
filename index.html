@@ -1,49 +1,19 @@
-<!DOCTYPE html>
-<html lang="">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <link rel="icon" href="/A19circle.ico" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <title>Area 19 | Report Maker</title>
-    <script defer="defer" src="/js/chunk-vendors.c373703c.js"></script>
-    <script defer="defer" src="/js/app.74add12b.js"></script>
-    <link href="/css/app.c782f904.css" rel="stylesheet" />
-  </head>
-  <body>
-    <noscript
-      ><strong
-        >We're sorry but report-maker-a19 doesn't work properly without
-        JavaScript enabled. Please enable it to continue.</strong
-      ></noscript
-    >
-    <div id="app"></div>
-  </body>
-</html>
-<script>
-  // Prevent user from zooming in and out using ctrl+wheel
-  document.addEventListener("keydown", function (e) {
+<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width,initial-scale=1"/><link rel="icon" href="/favicon.ico"/><title>Area 19 | Viewer</title><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900"/><link rel="”stylesheet”" href="”https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css”/"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/><link href="https://cdn.jsdelivr.net/npm/font-proxima-nova@1.0.1/style.min.css" rel="stylesheet"/><script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" integrity="sha512-BNaRQnYJYiPSqHHDb58B0yaPfCu+Wgds8Gp/gU33kqBtgNS4tSPHuGibyoeqMV/TJlSKda6FXzoEyYGjTe+vXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.2.0/jspdf.umd.min.js"></script><script type="module" crossorigin src="/assets/index-43baa076.js"></script><link rel="modulepreload" crossorigin href="/assets/vendor-0d601a45.js"><link rel="modulepreload" crossorigin href="/assets/vuetify-ec25be11.js"><link rel="modulepreload" crossorigin href="/assets/vtk.js-bd03a6e8.js"><link rel="stylesheet" href="/assets/vendor-4522082c.css"><link rel="stylesheet" href="/assets/vuetify-bef0b8e3.css"><link rel="stylesheet" href="/assets/index-019b0a02.css"></head><body><noscript><strong>JavaScript must be enabled.</strong></noscript><div id="app"></div></body></html><script>// Prevent user from zooming in and out using ctrl+wheel
+  document.addEventListener('keydown', function (e) {
     if (
       e.ctrlKey &&
-      (e.keyCode == "61" ||
-        e.keyCode == "107" ||
-        e.keyCode == "173" ||
-        e.keyCode == "109" ||
-        e.keyCode == "187" ||
-        e.keyCode == "189")
+      (e.keyCode == '61' ||
+        e.keyCode == '107' ||
+        e.keyCode == '173' ||
+        e.keyCode == '109' ||
+        e.keyCode == '187' ||
+        e.keyCode == '189')
     ) {
       e.preventDefault();
     }
   });
   document.addEventListener(
-    "wheel",
+    'wheel',
     function (e) {
       if (e.ctrlKey) {
         e.preventDefault();
@@ -52,5 +22,4 @@
     {
       passive: false,
     }
-  );
-</script>
+  );</script>
